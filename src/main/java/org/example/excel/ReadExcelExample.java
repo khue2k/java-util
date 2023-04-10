@@ -95,7 +95,6 @@ public class ReadExcelExample {
         }
         return cellValue;
     }
-
     public static void main(String[] args) {
         String filePath="";
         List<Person> personList = readPersonExcel(new File(filePath));
